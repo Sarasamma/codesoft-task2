@@ -16,8 +16,8 @@ body {
 	position: fixed; 
 	top: 0; 
 	width: 100%; 
-	background-image: linear-gradient(90deg, #74D7BB, #53C8B6, #35A99C); 
-	background-color: transparent; 
+	background-image: linear-gradient(45deg, orange, lightblue,green); 
+	background-color: black; 
 } 
 
 .logo { 
@@ -25,7 +25,7 @@ body {
 } 
 
 .logo .logo-heading { 
-	color: #fff; 
+	color: black; 
 } 
 
 .menu { 
@@ -34,7 +34,7 @@ body {
 
 .hamburger { 
 	display: none; 
-	color: #fff; 
+	color: blue; 
 	font-size: 25px; 
 } 
 
@@ -86,14 +86,14 @@ body {
 .about { 
 	display: flex; 
 	align-items: center; 
-	background-image: linear-gradient(45deg, #363D73, #2794B3); 
+	background-image: linear-gradient(pink, lightblue, green); 
 	justify-content: space-between; 
 	width: 100%; 
 } 
 
 .about .about-text { 
 	width: 450px; 
-	color: #fff; 
+	color: black; 
 	padding: 5rem 1rem 5rem 5rem; 
 } 
 
@@ -126,8 +126,8 @@ body {
 	border-top-left-radius: 20px; 
 } 
 
-/* Services section styles */
-.services { 
+/* Skills section styles */
+.skills { 
 	display: flex; 
 	align-items: center; 
 	justify-content: center; 
@@ -163,7 +163,7 @@ body {
 	height: 100px; 
 	width: 100px; 
 	border-radius: 50%; 
-	background-color: #363D73; 
+	background-color: green; 
 	display: flex; 
 	align-items: center; 
 	justify-content: center; 
@@ -171,7 +171,7 @@ body {
 
 .icon svg { 
 	font-size: 30px; 
-	color: #fff; 
+	color: blue; 
 } 
 
 /* Contact section styles */
@@ -210,8 +210,10 @@ body {
 
 /* Footer Styles */
 .footer { 
-	background-color: #000; 
-	color: #fff; 
+
+	background-image: linear-gradient(45deg,orange,lightblue,green); 
+	background-color:white; 
+	color: blue; 
 	padding: 2rem; 
 } 
 
@@ -228,7 +230,7 @@ body {
 
 .footer-links { 
 	font-size: 24px; 
-	color: #fff; 
+	color: blue; 
 	text-decoration: none; 
 } 
 
@@ -268,12 +270,12 @@ body {
 .sub-heading { 
 	margin: 0; 
 	font-size: 0.8rem; 
-	color: #ccc; 
+	color: blue; 
 	font-weight: lighter; 
 } 
 
 .links:hover { 
-	border-bottom: 2px solid #fff; 
+	border-bottom: 2px solid black; 
 } 
 
 .links { 
@@ -281,7 +283,7 @@ body {
 	transition: all 0.25s; 
 	padding: 5px; 
 	text-decoration: none; 
-	color: #fff; 
+	color: black; 
 } 
 
 .btn { 
@@ -294,20 +296,20 @@ body {
 
 .common-btn { 
 	background-color: #35A99C; 
-	color: #fff; 
+	color: blue; 
 	border: 2px solid #35A99C; 
 	transition: all 0.25s; 
 } 
 
 .common-btn:hover { 
 	background-color: #fff; 
-	color: #35A99C; 
+	color: blue; 
 	border: 2px solid #35A99C; 
 	outline: none; 
 } 
 
 .ghost-btn { 
-	background-color: #fff; 
+	background-color: blue; 
 	color: #35A99C; 
 	border: 2px solid #35A99C; 
 	outline: none; 
@@ -315,7 +317,7 @@ body {
 
 .ghost-btn:hover { 
 	background-color: #35A99C; 
-	color: #fff; 
+	color: blue; 
 	transition: all 0.25s; 
 	border: 2px solid #35A99C; 
 } 
@@ -330,11 +332,11 @@ body {
 
 .small-para { 
 	font-size: 14px; 
-	color: #fff; 
+	color: blue; 
 } 
 
 .white-text { 
-	color: #fff; 
+	color: blue; 
 } 
 
 .blue-text { 
